@@ -32,3 +32,53 @@ body {
   margin-left: 20px;
   margin-right: 20px;
 }
+
+.banner {
+  max-width: 930px;
+  height: 350px;
+  background-color: #83d6e7;
+  margin-top: 3cm;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px 30px 15px 15px;
+  overflow: hidden;
+}
+.banner_img {
+  width: 100%;
+}
+
+.menu-flexbox {
+  text-decoration: none;
+  align-items: center;
+  margin-top: 1cm;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin: auto; */
+  background-color: #f9f6e5;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+  max-width: 1000px;
+}
+
+.menu-box {
+  display: flex;
+  margin: 1cm;
+  background-color: #ffb2a5;
+  width: 30%;
+  min-height: 200px;
+  max-height: 300px;
+  border-radius: 15px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  /* margin-left: 50px;
+  margin-right: 50px; */
+}
+
+.menubox-img {
+  max-width: 237px;
+  max-height: 200px;
+  width: 100%;
+}
