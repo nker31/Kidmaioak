@@ -154,4 +154,8 @@ body {
   background-color: #ffb2a5;
   margin: 25px;
   border-radius: 15px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  overflow: hidden;
 }
