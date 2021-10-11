@@ -52,25 +52,34 @@ body {
   max-width: 900px;
   min-height: 250px;
   max-height: 300px;
-  background-color: #a07462;
+  /* background-color: #a07462; */
   display: flex;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1cm;
 }
 .team-box {
-  background-color: #f9f6e5;
+  /* border: 1px solid #000000; */
+  background-color: wheat;
   margin: 10px;
   width: 25%;
   border-radius: 10px;
   text-align: center;
+  overflow: hidden;
+}
+
+.team-text {
+  background-color: #a07462;
+  color: #f9f6e5;
+  padding: 13px;
+  margin-top: -5px;
 }
 
 /* bottom-part */
 .under-cover {
   max-width: 900px;
-  min-height: 250px;
-  max-height: 300px;
+  min-height: 225px;
+  max-height: 270px;
   /* background-color: #a07462; */
   display: flex;
   margin-left: auto;
@@ -81,40 +90,50 @@ body {
 
 .under-left {
   display: block;
-  margin: 10px;
-  width: 40%;
-  background-color: pink;
+  margin-left: 10px;
+  margin-right: 20px;
+  width: 35%;
+  background-color: wheat;
   border-radius: 15px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 .text-add-name {
   background-color: #a07462;
   width: 100%;
   text-align: center;
-  max-height: 200px;
-  /* height: 20%; */
+  height: 25%;
+  margin-top: -24px;
+}
+.add-text {
+  color: #f9f6e5;
+  font-size: 20px;
+  padding-top: 15px;
 }
 
 .text-area-box {
-  display: flex;
-  /* height: 50%; */
-  background-color: aqua;
+  max-height: 50%;
+  background-color: wheat;
   align-items: center;
   text-align: center;
   justify-content: center;
+  margin-top: -24px;
+  margin-bottom: 10px;
+  padding-top: 20px;
 }
 
 .text-area {
 }
 .random-button-box {
-  /* height: 25%; */
+  height: 25%;
+  margin-top: 15px;
 }
 .random-button {
-  width: 90%;
+  width: 75%;
   min-height: 40px;
   border-radius: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 1cm;
   background-color: #a07462;
   color: #f9f6e5;
   border: 1px solid white;
@@ -122,8 +141,20 @@ body {
 
 /* right */
 .under-right {
-  width: 60%;
-  background-color: aqua;
-  margin: 10px;
+  width: 65%;
+  background-color: wheat;
+  margin-left: 20px;
+  margin-right: 10px;
   border-radius: 15px;
+  overflow: hidden;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.text-how-to {
+  text-align: center;
+}
+
+.how-to-content {
+  margin: 30px;
 }
