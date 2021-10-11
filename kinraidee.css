@@ -32,3 +32,126 @@ body {
   margin-left: 20px;
   margin-right: 20px;
 }
+
+.page-name {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5cm;
+  color: #a07462;
+}
+.main-content {
+  margin-top: 0.5cm;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ----- upper box ----- */
+.upper-box {
+  min-height: 370px;
+  min-width: 750px;
+  max-width: 850px;
+  /* background-color: aquamarine; */
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.output-box {
+  display: flex;
+  width: 55%;
+  min-height: 400px;
+  background-color: #83d6e7;
+  margin: 15px;
+  border-radius: 15px;
+  margin-left: 25px;
+  margin-right: 20px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+/* right part */
+.right-part {
+  display: block;
+  width: 35%;
+  /* background-color: #a07462; */
+  margin: 15px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+/* history box */
+.history-box {
+  /* border: 1px solid black; */
+  margin-top: -20px;
+  background-color: white;
+  width: 100%;
+  height: 85%;
+  border-radius: 15px;
+  overflow: hidden;
+  text-align: center;
+}
+.history-text-box {
+  display: flex;
+  padding-top: 13px;
+  width: 100%;
+  height: 20%;
+  color: white;
+  background-color: #ffb2a5;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/* button box */
+.button-box {
+  display: flex;
+  margin-top: 20px;
+  /* background-color: green; */
+  height: 15%;
+  border-radius: 15px 15px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.random-button {
+  /* padding-bottom: ; */
+  font-size: 24px;
+  width: 100%;
+  height: 100%;
+  min-height: 40px;
+  border-radius: 15px;
+  background-color: #ffb2a5;
+  color: #f9f6e5;
+  border: 1px solid white;
+}
+
+/* ----- lower box ----- */
+
+.category-text-box {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.category-text {
+  /* margin-top: -10px; */
+  margin-left: auto;
+  margin-right: auto;
+  color: #a07462;
+}
+
+.lower-box {
+  display: flex;
+  min-height: 200px;
+  min-width: 750px;
+  max-width: 850px;
+  /* background-color: aquamarine; */
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.menu-box {
+  width: 25%;
+  background-color: #ffb2a5;
+  margin: 25px;
+  border-radius: 15px;
+}
