@@ -32,3 +32,98 @@ body {
   margin-left: 20px;
   margin-right: 20px;
 }
+
+.page-name {
+  /* margin-top: 3cm; */
+  /* margin-left: 11cm; */
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5cm;
+  color: #a07462;
+}
+.main-content {
+  margin-top: 1cm;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team-main-box {
+  max-width: 900px;
+  min-height: 250px;
+  max-height: 300px;
+  background-color: #a07462;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1cm;
+}
+.team-box {
+  background-color: #f9f6e5;
+  margin: 10px;
+  width: 25%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* bottom-part */
+.under-cover {
+  max-width: 900px;
+  min-height: 250px;
+  max-height: 300px;
+  /* background-color: #a07462; */
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1cm;
+}
+/* left */
+
+.under-left {
+  display: block;
+  margin: 10px;
+  width: 40%;
+  background-color: pink;
+  border-radius: 15px;
+}
+.text-add-name {
+  background-color: #a07462;
+  width: 100%;
+  text-align: center;
+  max-height: 200px;
+  /* height: 20%; */
+}
+
+.text-area-box {
+  display: flex;
+  /* height: 50%; */
+  background-color: aqua;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.text-area {
+}
+.random-button-box {
+  /* height: 25%; */
+}
+.random-button {
+  width: 90%;
+  min-height: 40px;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 1cm;
+  background-color: #a07462;
+  color: #f9f6e5;
+  border: 1px solid white;
+}
+
+/* right */
+.under-right {
+  width: 60%;
+  background-color: aqua;
+  margin: 10px;
+  border-radius: 15px;
+}
