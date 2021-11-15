@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mali:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="kinraidee.css">
+    <script src="kinraidee.js"></script>
     <title>Kinraidee</title>
 </head>
 <body>
@@ -23,18 +24,20 @@
             <div class="upper-box">
                 <!-- output part -->
                 <div class="output-box">
-                    <img src="food-menu-img/burger-text.png" alt="" style="width: 300px; ">
+                    <img id="output-img" src="food-menu-img/burger-text.png" alt="" style="width: 300px; ">
                     
                 </div>
                 <div class="right-part">
-                    <div class="history-box">
+                    <div class="history-box" >
                         <div class="history-text-box">
                             <h2>history</h2>
+                        </div >
+                        <div id="historyOutput">
+
                         </div>
-                        <p>burger</p>
                     </div>
                     <div class="button-box">
-                        <button id="randomButton"class="random-button" onclick="alert()">random</button>
+                        <button id="randomButton"class="random-button" onclick="getRandomFood()">random</button>
                     </div>
                 </div>
             </div>
@@ -43,16 +46,16 @@
                 <h2 class="category-text">category</h2>
             </div>
             <div class="lower-box">
-                <div class="menu-box">
+                <div class="menu-box" onclick="selectFood()">
                     <img src="food-menu-img/Food-genre.png" alt="">
                 </div>
-                <div class="menu-box">
+                <div class="menu-box" onclick="selectFastFood()">
                     <img src="food-menu-img/Fastfood-genre.png" alt="">
                 </div>
-                <div class="menu-box">
+                <div class="menu-box" onclick="selectDessert()">
                     <img src="food-menu-img/Dessert-genre.png" alt="">
                 </div>
-                <div class="menu-box">
+                <div class="menu-box" onclick="selectBeverage()">
                     <img src="food-menu-img/Beverages-genre.png" alt="">
                     
                 </div>
