@@ -13,8 +13,8 @@ beverageText_array = ["Cocktail","Coconut water","Lemon juice","Lime juice","Moc
 
 let selectGenre = food_array;
 let selectTextGenre = foodText_array
-let textOutput = document.getElementById("historyOutput")
 
+// Select Category
 function selectFood(){
     selectGenre = food_array
     selectTextGenre = foodText_array
@@ -34,16 +34,17 @@ function selectBeverage(){
     selectTextGenre = beverageText_array
 
 }
-
+// Random food function
 function getRandomFood(){
-    randomIndex = Math.floor(Math.random() * selectGenre.length);
-    randomImg = selectGenre[randomIndex]
-    randomText = selectTextGenre[randomIndex]
+    randomIndex = Math.floor(Math.random() * selectGenre.length); //Get ramdom index
+    randomImg = selectGenre[randomIndex] //random image
+    randomText = selectTextGenre[randomIndex] //random text
     console.log(randomImg)
     console.log(randomText)
-    document.getElementById("output-img").src = '/food-pic/' + randomImg
-    historyOutput = "<p>" + randomText + "</p>"
+    var textOutput = document.getElementById("historyOutput") // get output id from html
+    document.getElementById("output-img").src = '/food-pic/' + randomImg //set random image 
+    
 
-    textOutput.innerHTML = historyOutput;
+    textOutput.innerHTML = textOutput.innerHTML +"<br>"+ randomText +"<br>" //insert history to history box
 
 }
