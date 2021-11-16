@@ -7,23 +7,29 @@ function getRandomInt(min, max) {
 function randomCLick(){
     var min = document.getElementById("min-input").value;
     var max = document.getElementById("max-input").value;
+    let historyOutput = document.getElementById("numberOuput")
     
     let randomNumber = getRandomInt(min,max)
+    
+    if(rnd === 0){
+
+    }
+    else if(rnd > 0){
+        historyOutput.innerHTML = historyNumber
+    }
     console.log("min:",min)
     console.log("max:",max)
     console.log("random:",randomNumber)
     output.innerHTML = randomNumber
+    historyNumber = randomNumber
+    rnd+=1
+    console.log("Round: ",rnd)
+    console.log("History num: ",historyNumber)
 }
-function test(){
-    var min = document.getElementById("min-input").value;
-    var max = document.getElementById("max-input").value;
-    console.log("min:",min)
-    console.log("max:",max)
-    output.innerHTML = min
-}
+let rnd = 0
+let historyNumber = 0
+
 let output = document.getElementById("output");
-var min = document.getElementById("min-input").value;
-var max = document.getElementById("max-input").value;
 
 let buttonClick = document.getElementById("randomButton");
 // buttonClick.addEventListener("click",randomCLick(min,max))
