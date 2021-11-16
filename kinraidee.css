@@ -159,3 +159,22 @@ body {
   justify-content: center;
   overflow: hidden;
 }
+
+.menu-box:hover {
+  box-shadow: 0 5px #ffb2a5;
+}
+
+.menu-box:active {
+  background-color: #ffb2a1;
+  box-shadow: 0 5px #ffb2a1;
+  transform: translateY(4px);
+}
+.random-button:hover {
+  box-shadow: 0 5px #ffb2a5;
+}
+
+.random-button:active {
+  background-color: #ffb2a1;
+  box-shadow: 0 5px #ffb2a1;
+  transform: translateY(4px);
+}
