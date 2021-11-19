@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mali:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="groupnaidee.css">
+    <script src="groupnaidee.js"></script>
     <title>Groupnaidee</title>
 </head>
 <body>
@@ -24,18 +25,27 @@
         <div class="team-main-box">
             <div class="team-box">
                 <h2 class="team-text">Team 1</h2>
-                <p>phoom</p>
+                <div id="teamOne">
+                    
+                </div>
             </div>
             <div class="team-box">
                 <h2 class="team-text">Team 2</h2>
-                <p>peam</p>
+                <div id="teamTwo">
+                    
+                </div>
             </div>
             <div class="team-box">
                 <h2 class="team-text">Team 3</h2>
-                <p>boom</p>
+                <div id="teamThree">
+                    
+                </div>
             </div>
             <div class="team-box">
                 <h2 class="team-text">Team 4</h2>
+                <div id="teamFour">
+                    
+                </div>
             </div>
         </div>
         <!-- bottom part -->
@@ -46,12 +56,26 @@
                 <div class="text-add-name">
                     <p class="add-text">Add name</p>
                 </div>
-                <div class="text-area-box">
-                    <textarea name="" id="" cols="30" rows="5" class="text-area">peam, phoom, boom</textarea>
+                <div style="display: flex;">
+                    <div class="input-left-part">
+                        <div class="text-area-box">
+                            <textarea name="" cols="30" rows="5" class="text-area" id="textInput"></textarea>
+                        </div>
+                        <div class="random-button-box">
+                            <button id="randomButton"class="random-button" onclick="fn()">random</button>
+                        </div>
+                    </div>
+                    <div class="input-right-part">
+                        <input style="margin: 8px;" type="radio" id="2team" name="selectTeam" value="2" checked>
+                        <label for="html">2 team</label><br>
+                        <input style="margin: 8px;" type="radio" id="3team" name="selectTeam" value="3">
+                        <label for="css">3 team</label><br>
+                        <input style="margin: 8px;" type="radio" id="4team" name="selectTeam" value="4">
+                        <label for="javascript">4 team</label>
+                    </div>
                 </div>
-                <div class="random-button-box">
-                    <button id="randomButton"class="random-button" onclick="alert()">random</button>
-                </div>
+                
+                
             </div>
             <!-- right part -->
             <div class="under-right">
@@ -59,7 +83,11 @@
                     <h2>How to use?</h2>
                 </div>
                 <div class="how-to-content">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam adipisci commodi illo quaerat! Sint maiores beatae quidem voluptatum porro magnam mollitia doloremque cum? Assumenda tenetur cumque corporis, facilis quia voluptates.</p>
+                    <p>1. กรอกรายชื่อแล้วตามด้วย ","</p>
+                    <p>2. เลือกจำนวนกลุ่มที่ต้องการจะแบ่ง</p>
+                    <p>3. กดปุ่ม random</p>
+                    <p>------------------------------------------------</p>
+                    <p>Example: Peter, Ned, MJ</p>
                 </div>
             </div>
         </div>

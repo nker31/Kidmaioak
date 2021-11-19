@@ -91,14 +91,14 @@ body {
 .under-left {
   display: block;
   margin-left: 10px;
-  margin-right: 20px;
-  width: 35%;
+  margin-right: 10px;
+  width: 50%;
   background-color: wheat;
   border-radius: 15px;
   overflow: hidden;
-  align-items: center;
+  /* align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: center; */
 }
 .text-add-name {
   background-color: #a07462;
@@ -116,38 +116,55 @@ body {
 .text-area-box {
   max-height: 50%;
   background-color: wheat;
-  align-items: center;
+  /* align-items: center;
   text-align: center;
-  justify-content: center;
-  margin-top: -24px;
+  justify-content: center; */
+  /* margin-top: -24px; */
+
   margin-bottom: 10px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .text-area {
+  max-width: 80%;
+  margin-left: 20px;
 }
 .random-button-box {
   height: 25%;
   margin-top: 15px;
 }
 .random-button {
-  width: 75%;
+  width: 80%;
   min-height: 40px;
   border-radius: 15px;
   background-color: #a07462;
   color: #f9f6e5;
   border: 1px solid white;
+  margin-left: 20px;
+}
+
+.input-left-part {
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.input-right-part {
+  width: 40%;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 /* right */
 .under-right {
-  width: 65%;
+  width: 50%;
   background-color: wheat;
   margin-left: 20px;
   margin-right: 10px;
   border-radius: 15px;
   overflow: hidden;
-  margin-left: 20px;
+  margin-left: 10px;
   margin-right: 10px;
 }
 
@@ -156,5 +173,9 @@ body {
 }
 
 .how-to-content {
-  margin: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 14px;
 }
